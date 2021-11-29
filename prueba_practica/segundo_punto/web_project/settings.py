@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'facturas_electronicas',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
