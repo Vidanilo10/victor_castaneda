@@ -1,9 +1,9 @@
+from typing import BinaryIO
 import argparse
 import sys
 import os
 
-
-def process_file(name: str) -> str:
+def process_file(name: str) -> int:
     with open(name, newline='', mode='r') as input:
         with open ('output.csv', mode='w') as output:
             for line in input: 
@@ -12,8 +12,9 @@ def process_file(name: str) -> str:
                     output.write('NO\n')
                 else:
                     output.write('SI\n')
+    return 0
 
-def main() -> bool:
+def main() -> BinaryIO:
     try:
         os.remove("output.csv") 
     except:
