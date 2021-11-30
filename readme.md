@@ -44,10 +44,12 @@ $ python manage.py migrate
 $ python manage.py runserver
 ```
 Con estos pasos ya podriamos ir a:
+
+
 [http://localhost:8000/facturas link](http://localhost:8000/facturas)
 
 
-[https://127.0.0.1:8000 link](https://127.0.0.1:8000) 
+[https://127.0.0.1:8000/facturas link](https://127.0.0.1:8000) 
 
 
 ## Estructura de carpetas  
