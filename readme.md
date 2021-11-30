@@ -10,6 +10,32 @@ El repositorio cuenta con dos partes:
         - Segundo Punto: Es un servicio web (API) desarrollado en Django y Django rest framework
 
 
+## ¿Cómo utilizarlo?
+
+```
+$ # Obtener el código
+$ git clone https://github.com/Vidanilo10/victor_castaneda.git
+$ cd victor_castaneda
+$
+$ # Virtualenv (Para sistemas Unix)
+$ virtualenv env
+$ source env/bin/activate
+$
+$ # Virtualenv (Para sistemas Windows)
+$ # virtualenv env
+$ # .\env\Scripts\activate
+$
+$ # Instalar las dependencias necesarias
+$ pip3 install -r requirements.txt
+```
+
+Aqui ya se podría probar el primer punto de la siguiente manera:
+```
+$ cd prueba_practica/primer_punto
+$ python main.py "--nombre_archivo.csv" (Opcional)
+$ python main.py
+```
+
 ## Estructura de carpetas  
 |-- prueba_practica/
 |    |-- env/
