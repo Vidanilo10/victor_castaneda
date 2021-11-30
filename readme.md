@@ -52,7 +52,9 @@ Con estos pasos ya podriamos ir a:
 [https://127.0.0.1:8000/facturas link](https://127.0.0.1:8000) 
 
 
-## Estructura de carpetas  
+## Estructura de carpetas 
+
+. 
 |-- prueba_practica/
 |    |-- env/
 |    |-- primer_punto/
