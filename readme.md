@@ -10,9 +10,7 @@ El repositorio cuenta con dos partes:
         - Segundo Punto: Es un servicio web (API) desarrollado en Django y Django rest framework
 
 
-## Estructura de carpetas
-< PROJECT ROOT >
-   
+## Estructura de carpetas  
 |-- prueba_practica/
 |    |-- env/
 |    |-- primer_punto/
@@ -26,4 +24,3 @@ El repositorio cuenta con dos partes:
 |-- prueba_teorica/
 |    |-- Prueba Teorica Software Developer.docx
 |   |
-|   |-- ************************************************************************
