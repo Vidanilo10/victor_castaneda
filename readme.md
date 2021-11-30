@@ -11,15 +11,19 @@ El repositorio cuenta con dos partes:
 
 
 ## Estructura de carpetas
-|-- prueba_practica
-    |-- env
-    |-- primer_punto
-        |-- input.csv
-        |-- main.py
-    |-- segundo_punto
-        |-- facturas_electronicas
-        |-- web_project
-    |-- .gitignore
-    |-- Prueba Practica Software Developer.docx
-|-- prueba_teorica
-    |-- Prueba Teorica Software Developer.docx
+< PROJECT ROOT >
+   
+|-- prueba_practica/
+|    |-- env/
+|    |-- primer_punto/
+|        |-- input.csv
+|        |-- main.py
+|    |-- segundo_punto/
+|        |-- facturas_electronicas/
+|        |-- web_project/
+|    |-- .gitignore
+|    |-- Prueba Practica Software Developer.docx
+|-- prueba_teorica/
+|    |-- Prueba Teorica Software Developer.docx
+|   |
+|   |-- ************************************************************************
