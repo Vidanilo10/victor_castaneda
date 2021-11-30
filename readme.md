@@ -15,7 +15,7 @@ El repositorio cuenta con dos partes:
 ```
 $ # Obtener el código
 $ git clone https://github.com/Vidanilo10/victor_castaneda.git
-$ cd victor_castaneda
+$ cd victor_castaneda/prueba_practica
 $
 $ # Virtualenv (Para sistemas Unix)
 $ virtualenv env
@@ -35,6 +35,17 @@ $ cd prueba_practica/primer_punto
 $ python main.py "--nombre_archivo.csv" (Opcional)
 $ python main.py
 ```
+
+Para probar el segundo punto, desde la carpeta victor_castaneda:
+```
+$ cd prueba_practica/segundo_punto
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py runserver
+```
+Con estos pasos ya podriamos ir a:
+[a link](http://localhost:8000/facturas) o [a link](https://127.0.0.1:8000) 
+
 
 ## Estructura de carpetas  
 |-- prueba_practica/
